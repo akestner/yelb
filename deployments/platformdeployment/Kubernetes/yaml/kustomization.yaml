@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- yelb-k8s-ingress-alb-ip.yaml
+- yelb-k8s-ingress-alb.yaml
+- yelb-k8s-loadbalancer.yaml
+- yelb-k8s-minikube-hostport.yaml
+- yelb-k8s-minikube-ingress.yaml
+- yelb-k8s-minikube-nodeport.yaml
